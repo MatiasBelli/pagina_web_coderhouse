@@ -81,6 +81,11 @@ body {
   padding: 10px 10px;
 }
 
+.menu a:hover {
+  background: linear-gradient(to right , rgb(235, 38, 38), rgb(236, 144, 5));
+
+}
+
 /*----------------------------------------*/
 
 .main_container {
@@ -161,6 +166,9 @@ body {
   box-shadow: 0 2px 1px -1px rgb(0 0 0 / 20%), 0 1px 1px 0 rgb(0 0 0 / 14%),
     0 1px 3px 0 rgb(0 0 0 / 12%);
 }
+
+.producto :hover {
+  transform: scale(0.9);}
 
 .item p {
   color: #000000;
