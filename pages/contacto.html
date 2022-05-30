@@ -5,6 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>La Ruta del Hardware</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="../css/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -23,7 +29,62 @@
   <body>
     <div class="grid_container">
       <div class="grid_item1">
-        <nav class="menu_container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#"
+              ><img src="../imagenes/logo-fix.png" alt=""
+            /></a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="../index.html"
+                    >Inicio</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link active"
+                    aria-current="page"
+                    href="./acerca de nosotros.html"
+                    >Acerca de</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link active"
+                    aria-current="page"
+                    href="./catalogo.html"
+                    >Catalogo</a
+                  >
+                </li>
+              </ul>
+              <form class="d-flex">
+                <input
+                  class="form-control me-2"
+                  type="search"
+                  placeholder="Buscar"
+                  aria-label="Search"
+                />
+                <button class="btn btn-outline-success" type="submit">
+                  Buscar
+                </button>
+              </form>
+            </div>
+          </div>
+        </nav>
+
+        <!-- <nav class="menu_container">
           <div class="logo">
             <img src="../imagenes/logo-fix.png" alt="" />
           </div>
@@ -36,7 +97,7 @@
               <li><a href="./catalogo.html"> Catalogo </a></li>
             </ul>
           </div>
-        </nav>
+        </nav> -->
       </div>
 
       <div class="grid_item2">
@@ -70,7 +131,7 @@
               <textarea
                 name="mensaje"
                 id=""
-                cols="30"
+                cols="24"
                 rows="10"
                 placeholder="Ingresa tu consulta o problema."
                 required
@@ -94,7 +155,9 @@
             <div class="box__footer">
               <h2>Colaboradores</h2>
               <a href="https://www.nvidia.com/es-la/">NVIDIA</a>
-              <a href="https://www.intel.la/content/www/xl/es/homepage.html">Intel</a>
+              <a href="https://www.intel.la/content/www/xl/es/homepage.html"
+                >Intel</a
+              >
               <a href="https://www.amd.com/es">AMD</a>
               <a href="https://www.gigabyte.com/">GIGABYTE</a>
             </div>
@@ -114,5 +177,10 @@
         </footer>
       </div>
     </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
