@@ -1,0 +1,17 @@
+@mixin media-catalogo {
+  @media screen and (min-width: 350px) {
+    .main_catalogo {
+      width: 100%;
+      height: 2360px;
+    }
+    .caja1_catalogo {
+      width: 350px;
+      height: 2300px;
+      margin: auto;
+      img {
+        width: 250px;
+        height: 250px;
+      }
+    }
+  }
+}
