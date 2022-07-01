@@ -246,7 +246,7 @@ footer {
 .main_catalogo {
   background: #eceef0;
   width: 100%;
-  height: 2550px; }
+  height: 4400px; }
 
 .relleno_catalogo {
   background: #fd611a;
@@ -255,7 +255,7 @@ footer {
 
 .caja1_catalogo {
   width: 250px;
-  height: 2450px;
+  height: 4350px;
   margin: auto; }
   .caja1_catalogo h1 {
     margin: 0px 0px 10px 0px;
@@ -580,10 +580,10 @@ footer {
 @media screen and (min-width: 350px) {
   .main_catalogo {
     width: 100%;
-    height: 2360px; }
+    height: 4060px; }
   .caja1_catalogo {
     width: 350px;
-    height: 2300px;
+    height: 4000px;
     margin: auto; }
     .caja1_catalogo img {
       width: 250px;
@@ -592,10 +592,10 @@ footer {
 @media screen and (min-width: 750px) {
   .main_catalogo {
     width: 100%;
-    height: 1250px; }
+    height: 2050px; }
   .caja1_catalogo {
     width: 100%;
-    height: 1200px;
+    height: 2000px;
     margin: auto; }
   .producto_catalogo {
     display: flex;
@@ -613,7 +613,20 @@ footer {
 @media screen and (min-width: 1200px) {
   .main_catalogo {
     width: 100%;
-    height: 950px; } }
+    height: 1600px; }
+  .caja1_catalogo {
+    width: 100%;
+    height: 1500px;
+    margin: auto; } }
+
+@media screen and (min-width: 1200px) and (min-height: 850px) {
+  .main_catalogo {
+    width: 100%;
+    height: 900px; }
+  .caja1_catalogo {
+    width: 100%;
+    height: 950px;
+    margin: auto; } }
 
 @media screen and (min-width: 350px) {
   .formulario {
